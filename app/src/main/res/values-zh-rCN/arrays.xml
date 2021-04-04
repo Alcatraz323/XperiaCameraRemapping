@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="entries_for_light_function_selector">
+        <item>保持原功能</item>
+        <item>Home键</item>
+        <item>最近任务</item>
+        <item>返回键</item>
+        <item>与重按相同</item>
+        <item>模拟点击</item>
+    </string-array>
+
+    <string-array name="entries_for_heavy_function_selector">
+        <item>保持原功能</item>
+        <item>Home键</item>
+        <item>最近任务</item>
+        <item>返回键</item>
+        <item>模拟点击</item>
+    </string-array>
+
+</resources>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <string-array name="entries_for_light_function_selector">
+        <item>No Override</item>
+        <item>Home</item>
+        <item>Task Screen</item>
+        <item>Back</item>
+        <item>Same with Heavy press</item>
+        <item>Touch simulation</item>
+    </string-array>
+
+    <string-array name="entries_for_heavy_function_selector">
+        <item>No Override</item>
+        <item>Home</item>
+        <item>Task Screen</item>
+        <item>Back</item>
+        <item>Touch simulation</item>
+    </string-array>
+
+    <!--Please DO NOT add translation to the arrays below-->
+
+    <string-array name="entryvalue_for_light_function_selector">
+        <item>no_override</item>
+        <item>home</item>
+        <item>task_screen</item>
+        <item>back</item>
+        <item>same_with_heavy_press</item>
+        <item>touch_simulation</item>
+    </string-array>
+
+    <string-array name="entryvalue_for_heavy_function_selector">
+        <item>no_override</item>
+        <item>home</item>
+        <item>task_screen</item>
+        <item>back</item>
+        <item>touch_simulation</item>
+    </string-array>
+
+</resources>

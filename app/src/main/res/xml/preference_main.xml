@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="@string/preference_category_light_press_function">
+        <ListPreference
+            android:defaultValue="no_override"
+            android:dialogTitle="@string/preference_light_press_function_selector"
+            android:entries="@array/entries_for_light_function_selector"
+            android:entryValues="@array/entryvalue_for_light_function_selector"
+            android:key="light_press_function_selector"
+            android:icon="@drawable/arrow_collapse"
+            android:title="@string/preference_light_press_function_selector" />
+        <PreferenceScreen
+            android:icon="@drawable/overscan"
+            android:key="light_press_touch_simulation"
+            android:summary="@string/preference_light_press_touch_simulation_summary"
+            android:title="@string/preference_light_press_touch_simulation" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/preference_category_heavy_press_function">
+        <ListPreference
+            android:defaultValue="no_override"
+            android:dialogTitle="@string/preference_heavy_press_function_selector"
+            android:entries="@array/entries_for_heavy_function_selector"
+            android:entryValues="@array/entryvalue_for_heavy_function_selector"
+            android:key="heavy_press_function_selector"
+            android:icon="@drawable/arrow_collapse_all"
+            android:title="@string/preference_light_press_function_selector" />
+        <PreferenceScreen
+            android:key="heavy_press_touch_simulation"
+            android:summary="@string/preference_heavy_press_touch_simulation"
+            android:icon="@drawable/overscan"
+            android:title="@string/preference_heavy_press_touch_simulation_summary" />
+    </PreferenceCategory>
+</PreferenceScreen>

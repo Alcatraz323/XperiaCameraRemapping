@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">XperiaCameraRemapping</string>
+    <string name="accessibility_description">Service for camera button remap</string>
+
+    <string name="preference_category_light_press_function">Light Press(KEYCODE_FOCUS)</string>
+    <string name="preference_light_press_function_selector">Function selector</string>
+    <string name="preference_light_press_touch_simulation">Touch simulation</string>
+    <string name="preference_light_press_touch_simulation_summary">Set up touch position</string>
+    <string name="preference_category_heavy_press_function">Heavy Press(KEYCODE_CAMERA)</string>
+    <string name="preference_heavy_press_function_selector">Function selector</string>
+    <string name="preference_heavy_press_touch_simulation">Touch simulation</string>
+    <string name="preference_heavy_press_touch_simulation_summary">Set up touch position</string>
+    <string name="coordinate_text">Pls place the phone in the orientation you want to simulate(landscape(vol above the phone)/landscape(vol below the phone)/right portrait/reverse portrait), <b>wrong orientation will cause mis touch</b>\nCor_X: %f, Cor_Y: %f</string>
+</resources>

@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">相机键映射</string>
+    <string name="accessibility_description">相机键服务</string>
+
+    <string name="preference_category_light_press_function">轻按功能(对焦键)</string>
+    <string name="preference_light_press_function_selector">功能选择</string>
+    <string name="preference_light_press_touch_simulation">模拟点击</string>
+    <string name="preference_light_press_touch_simulation_summary">设置点击位置</string>
+    <string name="preference_category_heavy_press_function">重按功能(拍照键)</string>
+    <string name="preference_heavy_press_function_selector">功能选择</string>
+    <string name="preference_heavy_press_touch_simulation">模拟点击</string>
+    <string name="preference_heavy_press_touch_simulation_summary">设置点击位置</string>
+    <string name="coordinate_text">请把屏幕置于你需要进行模拟的屏幕方向(音量在上横屏/音量在下横屏/正向竖屏/反向竖屏), <b>错误的方向将导致点击错位</b>\nCor_X: %f, Cor_Y: %f</string>
+</resources>
